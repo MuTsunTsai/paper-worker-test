@@ -1,0 +1,18 @@
+{
+  "name": "paper-worker-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-if-any-newer": "^2.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^4.1.3"
+  }
+}

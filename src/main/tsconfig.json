@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "es2019",
+		"removeComments": true,
+		"strict": true,
+		"outDir": "../../dist",
+		"preserveConstEnums": true,
+		"experimentalDecorators": true
+	},
+	"include": [
+		"../share/*.ts",
+		"./**/*.ts",
+	]
+}

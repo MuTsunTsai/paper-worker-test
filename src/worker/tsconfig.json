@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "es2019",
+		"removeComments": true,
+		"strict": true,
+		"outFile": "worker.js",
+		"lib": [
+			"WebWorker",
+			"ESNext"
+		],
+		"skipLibCheck": true,
+		"preserveConstEnums": true,
+		"experimentalDecorators": true
+	},
+	"include": [
+		"../share/*.ts",
+		"**/*.ts",
+	]
+}
