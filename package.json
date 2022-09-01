@@ -8,11 +8,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-if-any-newer": "^2.0.0",
+    "gulp-newer": "^1.4.0",
     "gulp-typescript": "^6.0.0-alpha.1",
-    "typescript": "^4.1.3"
+    "typescript": "^4.8.2"
   }
 }
