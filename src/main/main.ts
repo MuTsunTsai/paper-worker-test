@@ -21,7 +21,7 @@ let option: any = {
 	width: canvas.width,
 	height: canvas.height
 };
-let trans: Transferable[] = [channel.port2];
+let trans: (Transferable | OffscreenCanvas)[] = [channel.port2];
 if(typeof (OffscreenCanvas) != "undefined") {
 	trans.push(option.canvas = canvas.transferControlToOffscreen());
 }

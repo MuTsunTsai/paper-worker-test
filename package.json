@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/offscreencanvas": "^2019.7.0",
     "gulp": "^4.0.2",
     "gulp-newer": "^1.4.0",
     "gulp-typescript": "^6.0.0-alpha.1",
