@@ -9,3 +9,5 @@ This project is a proof-of-concept for [paper.js](https://github.com/paperjs/pap
 - In either case, the canvas object is wrapped with extra members (src/worker/CanvasProxy.ts, line 84-92) in order to correctly response to the calling from paper.js.
 
 Needless to say, in this setup paper.js won't be able to react to user interactions. It might be possible to similarly pass the details of user interactions to paper.js on the worker, but for now the main goal of the project is simply to boost the rendering performance. On the demo web page, it repeatedly draws 2000 random lines and 100 circles, and still the rendering speed is quite satisfying.
+
+Watch the [demo](https://mutsuntsai.github.io/paper-worker-test).
